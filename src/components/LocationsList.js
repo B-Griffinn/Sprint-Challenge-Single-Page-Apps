@@ -51,7 +51,7 @@ function LocationDetails({ locate }) {
     <Card.Content extra>
       <a>
         <Icon name='user' />
-        {residents.length}
+        {residents.length} Residents
       </a>
     </Card.Content>
   </Card>
