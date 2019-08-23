@@ -33,7 +33,7 @@ We achieve client-side-routing when routing is handled internally like we accomp
 
 - [ ] What are `controlled components` in React?
 > Answer: Simply a Form. Forms keep an internal state (a froms controller).
- The HTML elements we have control over in a form are <input> <textarea> and <select>. 
+ The HTML elements we have control over in a form are `<input>` `<textarea>` and `<select>`. 
 
 
 ## Project Set Up
