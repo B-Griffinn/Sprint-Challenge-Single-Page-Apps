@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useState } from 'react';
+import { Route, Link } from "react-router-dom";
 import TabNav from "./components/TabNav.js";
 import Header from "./components/Header.js";
+import CharacterList from "./components/CharacterList"
 
 
 export default function App() {
   return (
-    <main>
+    <div>
       <Header />
       {/* <TabNav /> */}
-    </main>
+      <Route exact path="/" component={CharacterList}/>
+    </div>
   );
 }
