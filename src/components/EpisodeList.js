@@ -28,7 +28,7 @@ const EpisodeList = props => {
       <h2>
       {
         episode.map(sode => (
-          <Link to={`/episode/${sode.id}`}>
+          <Link key={sode.id} to={`/episode/${sode.id}`}>
             <LocationDetails key={sode.id} sode={sode}/>
           </Link>
         ))
@@ -49,9 +49,7 @@ function LocationDetails({ sode }) {
       </Card.Description>
     </Card.Content>
     <Card.Content extra>
-      <a>
        Episodes: {characters.length}
-      </a>
     </Card.Content>
   </Card>
   );
